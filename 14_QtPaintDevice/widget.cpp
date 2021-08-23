@@ -50,6 +50,9 @@ void Widget::paintEvent(QPaintEvent *event)
 //    }
 //    //在窗口显示
 //    painter.drawImage(0,0,img);
+    
+    
+    ////////QPicture作为绘图设备//////
     QPainter painter(this);
     QPicture pic;
     pic.load("C:\\Users\\orang_9qy7n8e\\Desktop\\pix.czr");
